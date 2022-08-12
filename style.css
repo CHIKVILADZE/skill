@@ -339,7 +339,7 @@ footer{
   height:500px;
   background-image:url(icons/image-hero-tablet.png);
   background-position:right 46vh bottom 84vh;
-  overflow: hidden;
+  
  }
  .title{
   font-family: 'Plus Jakarta Sans';
@@ -591,8 +591,8 @@ footer{
   background-image:url(icons/image-hero-desktop.png);
   
  
-  background-position:right 40vh bottom 56vh;
-  overflow: hidden;
+  background-position:right 96vh bottom 53vh;;
+ 
 
  }
  .section{
