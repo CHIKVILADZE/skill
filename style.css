@@ -1,0 +1,696 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+    
+    *{
+      margin:0;
+      padding:0;
+    }
+
+    body{
+        
+        display: flex;
+        flex-direction:column;
+        
+        
+
+    }
+
+    .header{
+        width:375px;
+        height:64px;
+       
+        margin-top:0px;
+        display:flex;
+        justify-content: space-between;
+
+    }
+
+   .skill{
+    margin-top:22px;
+    margin-left:16px;
+    width:89px;
+    height:35px;
+    height: 35px;
+    left: 0%;
+    right: 74.05%;
+    top: calc(50% - 35px/2 - 0.5px);
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #13183F;
+
+ }
+
+   .button{
+    width:140px;
+    height:48px;
+    background-color:#13183F;
+    margin-top:16px;
+    margin-right:16px;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    border:0px;
+    color: #FFFFFF;
+
+
+
+   }
+
+   .main-header{
+    
+    width:375px;
+
+   }
+
+   .title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    margin-left:16px;
+    margin-right:16px;
+   }
+
+  .text1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-left:16px;
+    margin-right:16px;
+
+  }
+  .button2{
+    width:167px;
+    height:56px;
+    border-radius:31.5px;
+    margin-top:24px;
+    margin-left:16px;
+    background: rgb(255,111,72);
+    background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+  }
+  .hero{
+    width:350px;
+    height:350px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:70px;
+  }
+  .tablet{
+    display:none;
+  }
+.section{
+    width:375px;
+    padding-bottom:86px;
+    margin-top:0px;
+    
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box1{
+    width:343px;
+    height:120px;
+    border-radius:10px;
+    margin-left:16px;
+    margin-right:16px;
+    
+    padding-top:24px;
+    
+    
+    background: rgb(255,111,72);
+    background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+
+}
+.text2{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  
+  margin-left:29px;
+  margin-right:28px;
+  color: #FFFFFF;
+  
+}
+
+.box2, .box3, .box4, .box5, .box6{
+  width:343px;
+  height:259px;
+ 
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:40px;
+  border-radius: 10px;
+  background-color:#FFFFFF;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  
+}
+.icon{
+  margin-left:28px;
+  margin-top:-23px;
+  width:56px;
+  height:56px;
+
+}
+h2{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183F;
+  margin-top:10px;
+  
+  margin-left:28px;
+
+}
+
+.text{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869A;
+  margin-left:29px;
+  margin-right:28px;
+  margin-top:16px;
+
+}
+.get{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #F74780;
+  margin-left:28px;
+  
+}
+footer{
+  width:375px;
+  height:120px;
+  background: #13183F;
+  display:flex;
+  justify-content: space-between;
+
+}
+.skilled{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-left:16px;
+  margin-top:43px;
+
+}
+.button3{
+  width:140px;
+  height:48px;
+  border-radius:28px;
+  margin-top:36px;
+  cursor: pointer;
+  margin-right:16px;
+  border:0px;
+  background: rgb(72,81,255);
+  background: linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  
+
+
+  color: #FFFFFF
+  
+  
+
+
+}
+.button3:hover{
+  width:145px;
+  height:50px;
+
+}
+
+@media (min-width:768px){
+ 
+  .header{
+    width:768px;
+    height:72px;
+    
+    margin-top:0px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.skill{
+  margin-top:31px;
+  margin-left:39px;
+  width:89px;
+  height:35px;
+  height: 35px;
+  left: 0%;
+  right: 74.05%;
+  top: calc(50% - 35px/2 - 0.5px);
+
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183F;
+
+}
+.button{
+  width:140px;
+  height:48px;
+  background-color:#13183F;
+  margin-top:24px;
+  margin-right:40px;
+  border-radius: 28px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  border:0px;
+  color: #FFFFFF;
+}
+.hero{
+  display:none;
+
+}
+
+
+.main-header{
+  
+  width:768px;
+  display:flex;
+ 
+}
+.main-tablet{
+  width:430px;
+
+}
+
+
+ .tablet{
+  display:inherit;
+ 
+  margin-right:0px; 
+  margin-top:0px;
+  width:330px;
+  height:500px;
+  background-image:url(icons/image-hero-tablet.png);
+  background-position:right 23vh bottom 84vh;
+  overflow: hidden;
+ }
+ .title{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183F;
+  margin-left:39px;
+  margin-top:105px;
+ }
+ .text1{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869A;
+  margin-left:39px;
+  margin-top:25px;
+
+ }
+ .get{
+  margin-bottom:10px;
+ }
+ .button2{
+  width:167px;
+  height:56px;
+  border-radius:31.5px;
+  border:0px;
+  margin-top:24px;
+  margin-left:39px;
+  background: rgb(255,111,72);
+  background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+ }
+
+ .section{
+  width:768px;
+  margin-top:0px;
+  
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  
+  
+}
+.box1{
+  width:343px;
+  height:239px;
+  border-radius:10px;
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:40px;
+  
+  
+  
+  
+  background: rgb(255,111,72);
+  background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+
+}
+.text2{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  
+  margin-top:59px;
+  margin-left:32px;
+  color: #FFFFFF;
+  
+}
+footer{
+  width:768px;
+  height:120px;
+  background: #13183F;
+  display:flex;
+  justify-content: space-between;
+
+}
+.skilled{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-left:40px;
+  margin-top:43px;
+
+  
+}
+.button3{
+  width:140px;
+  height:48px;
+  border-radius:28px;
+  margin-top:36px;
+  cursor: pointer;
+  margin-right:39px;
+  border:0px;
+  background: rgb(72,81,255);
+  background: linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  
+
+
+  color: #FFFFFF
+  
+  
+
+
+}
+.button3:hover{
+  width:145px;
+  height:50px;
+
+}
+}
+
+@media(min-width:1440px ){
+
+  *{
+    margin:0;
+    padding:0;
+    
+  }
+  
+  .header{
+    width:1440px;
+    height:80px;
+   
+    margin-top:0px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.skill{
+  margin-top:38px;
+  margin-left:165px;
+  width:111px;
+  height:28px;
+  height: 35px;
+  left: 0%;
+  right: 74.05%;
+  top: calc(50% - 35px/2 - 0.5px);
+
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183F;
+
+}
+.button{
+  width:167px;
+  height:56px;
+  background-color:#13183F;
+  margin-top:24px;
+  margin-right:165px;
+  border-radius: 28px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  border:0px;
+  color: #FFFFFF;
+}
+.main-header{
+  width:1440px;
+
+  display:flex;
+  flex-direction: row;
+  
+}
+.title{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 71px;
+ 
+  color: #13183F;
+  
+  margin-left:165px;
+  
+  margin-top:105px;
+ }
+ .text1{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  
+  color: #83869A;
+  margin-left:165px;
+  
+  margin-top:29px;
+
+}
+.button2{
+  width:167px;
+  height:63px;
+  border-radius:31.5px;
+  margin-top:40px;
+  margin-left:165px;
+  background: rgb(255,111,72);
+  background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+
+}
+.main-tablet{
+  width:700px;
+}
+.tablet{
+  
+ 
+  margin-right:0px; 
+  margin-top:0px;
+  width:700px;
+  height:700px;
+  background-image:url(icons/image-hero-desktop.png);
+  
+ 
+  background-position:right 40vh bottom 56vh;
+  overflow: hidden;
+
+ }
+ .section{
+  width:1440px;
+  margin-top:0px;
+  
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  
+  
+}
+footer{
+  width:1440px;
+  height:120px;
+  background: #13183F;
+  display:flex;
+  justify-content: space-between;
+  
+
+
+}
+.box1{
+  width:350px;
+  height:300px;
+}
+
+.box2, .box3, .box4, .box5, .box6{
+  width:350px;
+  height:322px;
+
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:40px;
+  border-radius: 10px;
+  background-color:#FFFFFF;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  display: flex;
+  flex-direction:column;
+  
+ 
+  
+}
+h2{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top:32px;
+
+
+  color: #13183F;
+
+}
+.text{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #83869A;
+  
+}
+.get{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+
+color: #F74780;
+margin:0px;
+}
+
+.box2   .get{
+  margin-top:24px;
+  margin-left:32px;
+}
+.box5   .get{
+  margin-top:24px;
+  margin-left:32px;
+}
+.box6   .get{
+  margin-top:24px;
+  margin-left:32px;
+}
+.box4   .get{
+  margin-top:52px;
+  margin-left:32px;
+}
+
+.box3   .get{
+  margin-top:52px;
+  margin-left:32px;
+}
+
+
+}
